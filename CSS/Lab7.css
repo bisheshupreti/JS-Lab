@@ -1,0 +1,11 @@
+.series {
+  font-size: 18px;
+  color: #2c3e50;
+}
+.term {
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 2px;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
