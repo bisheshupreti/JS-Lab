@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Experiment 1: Hello World</title>
+    
+    <!-- Internal JavaScript -->
+    <script>
+        function showInternal() {
+            document.getElementById("internalMsg").innerHTML = "Hello World! (Internal)";
+        }
+    </script>
+    
+    <!-- External JavaScript -->
+    <script src="JS/Lab1.js"></script>
+</head>
+<body>
+    <h1>Hello World - Three Ways</h1>
+    
+    <!-- Inline JavaScript -->
+    <button onclick="alert('Hello World! (Inline)')">Inline Alert</button>
+    
+    <!-- Internal JavaScript -->
+    <button onclick="showInternal()">Internal Message</button>
+    <p id="internalMsg"></p>
+    
+    <!-- External JavaScript -->
+    <button onclick="showExternal()">External Message</button>
+    <p id="externalMsg"></p>
+    
+    <!-- document.write() method -->
+    <script>
+        document.write("<p>Hello World! (document.write)</p>");
+    </script>
+</body>
+</html>
