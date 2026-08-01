@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: darkslategray;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin: 0;
+}
+
+h1 {
+  letter-spacing: 6px;
+  color: #94a3b8;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.group {
+  margin-bottom: 16px;
+}
+
+.group p {
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 0.5px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #94a3b8;;
+  padding: 14px 22px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: 16px;
+}
+
+.group strong {
+  font-weight: 600;
+  font-size: 1.15rem;
+  letter-spacing: 3px;
+}
+
+#currentDate {
+  color: #a78bfa;
+}
+
+#currentTime {
+  color: #60a5fa;
+}
+
+#liveClock {
+  font-family: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+  font-size: 1.5rem; 
+  color: #34d399; 
+  letter-spacing: 5px;
+  line-height: 1.3;
+}
